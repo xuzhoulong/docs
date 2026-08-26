@@ -3,23 +3,16 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "XUZHOULONG"
+  # text: "个人网站"
+  # tagline: 热爱编码 · 持续输出 · 记录技术与生活
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 查看项目
+      link: /#projects
     - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: GitHub
+      link: https://github.com/xuzhoulong
 ---
 
+<ProjectsSection />
