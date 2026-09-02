@@ -17,7 +17,7 @@ export default defineConfig({
         items: [
           { text: '开发工具', link: '/tools/' },
           { text: '开发技巧', link: '/tips/' },
-          { text: '开源项目', link: '/openPro/Cesium' },
+          { text: '开源项目', link: '/openPro/cesium' },
           // { text: '开源项目', link: '/openPro/' },
         ],
       },
