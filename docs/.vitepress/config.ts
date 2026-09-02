@@ -13,10 +13,12 @@ export default defineConfig({
       {
         text: '文档',
         // 下拉只展示分组入口，点击分组进入其落地页；具体文档改由左侧侧边栏展示
-        activeMatch: '/(tools|tips)/',
+        activeMatch: '/(tools|tips|openPro)/',
         items: [
           { text: '开发工具', link: '/tools/' },
           { text: '开发技巧', link: '/tips/' },
+          { text: '开源项目', link: '/openPro/Cesium' },
+          // { text: '开源项目', link: '/openPro/' },
         ],
       },
     ],
@@ -41,6 +43,14 @@ export default defineConfig({
             { text: '调试技巧', link: '/tips/debugging' },
             { text: '性能优化', link: '/tips/performance' },
             { text: '代码规范', link: '/tips/code-style' },
+          ],
+        },
+      ],
+      '/openPro/': [
+        {
+          text: '开源项目',
+          items: [
+            { text: 'Cesium', link: '/openPro/cesium' },
           ],
         },
       ],
